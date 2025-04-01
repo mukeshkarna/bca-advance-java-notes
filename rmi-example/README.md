@@ -1,10 +1,57 @@
-# Run the Application
-## Running the Server:
+# Setting Up and Testing RMI in IntelliJ IDEA
+
+## Step 1: Create a New Project
+
+- Open IntelliJ IDEA
+- Click on "New Project"
+- Select "Java" on the left panel
+- Choose your JDK (Java Development Kit) version (at least Java 8)
+- Click "Next"
+- Name your project (e.g., "RMICalculator")
+- Click "Finish"
+
+## Step 2: Create the Package Structure
+
+- Right-click on the "src" folder in the Project panel
+- Select "New" → "Package"
+- Name it "com.example.rmi" (or any package name you prefer)
+
+## Step 3: Create the Remote Interface
+
+- Right-click on your package
+- Select "New" → "Java Class"
+- Name it "PriceCalculator"
+- Replace the contents with PriceCalculator.java
+
+
+## Step 4: Create the Remote Implementation
+
+- Right-click on your package
+- Select "New" → "Java Class"
+- Name it "PriceCalculatorImpl"
+- Replace the contents with PriceCalculatorImpl.java
+
+## Step 5: Create the Server Class
+
+- Right-click on your package
+- Select "New" → "Java Class"
+- Name it "PriceServer"
+- Replace the contents with PriceServer.java
+
+## Step 6: Create the Client Class
+
+- Right-click on your package
+- Select "New" → "Java Class"
+- Name it "PriceClient"
+- Replace the contents with PriceClient.java
+
+## Step 7: Run the Application
+### Running the Server:
 - Right-click on the PriceServer class in the Project panel
 - Select ```"Run PriceServer.main()"```
 - You should see ```Price Calculator Server is running...``` in the Run console
 
-## Running the Client:
+### Running the Client:
 - Right-click on the ```PriceClient``` class in the Project panel
 - Select ```"Run PriceClient.main()"```
 - A GUI window should appear
